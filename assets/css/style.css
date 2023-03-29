@@ -1,0 +1,1163 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kalam:wght@300;400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    width:90%;
+    margin:0 auto;
+}
+.logo {
+    text-decoration: none;
+    color:white;
+    font-size:25px;
+}
+.mainnav a{
+    text-decoration: none;
+    color:white;
+    font-size:14px;
+    
+}
+.mainnav{
+    display: flex;
+    column-gap: 30px;
+}
+.mainnav1{
+    display: flex;
+    column-gap: 30px;
+}
+.bannercontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 0;
+
+}
+body{
+font-family: 'Poppins', sans-serif;
+position: relative;
+}
+
+
+.button {
+    border: 1px solid white;
+    border-radius: 13px;
+    padding: 9px 32px;
+}
+.button a{
+    text-decoration: none;
+    color:white;
+    
+    border-radius: 50px;
+}
+.mainbannerfirstcontent{
+    display: flex;
+    width:100%;
+    
+    justify-content:space-between;
+    
+}
+.secondhead h6 {
+    font-size: 18px;
+    max-width:385px;
+    color: white;
+    line-height: 1.6;
+    font-weight: 300;
+    padding-bottom: 15px;
+
+}
+.secondhead h5{
+    color:white;
+    font-size:18px;
+    padding-top:15px;
+    font-weight: 600;
+}
+.firsthead h1 {
+    max-width: 554px;
+    color: white;
+    font-size: 50px;
+}
+.line{
+    width:100%;
+    border: 1px solid white;
+}
+.mainbanner{
+    
+    background-image:url(../img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.shadow1{
+    background-color: rgba(65, 56, 56,72%);
+    
+}
+.logo a{
+    color:white;
+}
+.button2{
+    padding: 9px 10px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.button2 a{
+    text-decoration: none;
+    background-color: rgb(252, 115, 3);
+    color:white;
+    font-size: 14px;
+    border-radius:7px;
+    padding: 5px 23px;
+}
+.firstdiv{
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 100px;
+}
+.secondbanner{
+    display: flex;
+    flex-direction: column;
+    background-color:#f8f8f8;
+    
+}
+.secondcontainer{
+    width:90%;
+    margin: 20px auto;
+}
+.names {
+    display: flex;
+    column-gap:85px;
+   padding-bottom: 20px;
+}
+.appname{
+    width:100px;
+    height:108px;
+    overflow: hidden;
+}
+.appname img{
+    width:100%;
+    height: 100%;
+    object-fit:contain;
+    filter: grayscale(100%);
+    /* aspect-ratio: 3/2;
+    object-fit: contain; */
+}
+
+
+.firsthead{
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    flex-direction: column;
+   
+}
+.secondfirsthead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+.secondfirsthead h4{
+    font-size:17px;
+
+    color:#cdcdcd;
+    font-weight: 600;
+}
+.thirdcontainer{
+    width:90%;
+    margin: 0 auto;
+}
+.thirdcontent{
+    display: flex;
+    align-items: center;
+    padding:50px 0;
+}
+
+
+.thirdbannerimg {
+    height: 403px;
+    width: 663px;
+    overflow: hidden;
+    flex: 0 0 50%;
+
+}
+    
+.thirdbannerimg img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.thirdbannercontent1 h2{
+    max-width:434px;
+    font-size: 36px;
+}
+.thirdbannercontent2 h5{
+    font-size: 15px;
+    max-width: 484px;
+    font-weight: 400;
+    padding-top: 15px;
+    line-height: 1.9;
+    color:#9da1aa;
+
+}
+.button5{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 15px;
+    
+
+
+}
+.button5 a{
+    color:white;
+    text-decoration: none;
+    background-color: rgb(252, 115, 3);
+    padding: 10px 19px;
+    border-radius:8px;
+    box-shadow: -1px 7px 5px -2px rgba(240, 178, 107, 0.911);
+
+}
+.thirdbannercontent{
+    flex: 0 0 50%;
+    
+}
+.fourthcontainer{
+    width:90%;
+    margin: 0 auto;
+}
+.fourthbannercontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fourthbannerfirstcontent h1 {
+    max-width: 756px;
+    font-size: 42px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.fourthbannersecondcontent h5 {
+    
+    max-width: 811px;
+    font-size: 15px;
+    font-weight: 300;
+    color:#9da1aa;
+    line-height: 1.8;
+    padding-bottom: 10px;
+}
+.imagegallery {
+        width: 1139px;
+        height: 561px;
+        overflow: hidden;
+}
+
+
+.imagegallery img{
+    width:100%;
+    height: 100%;
+    object-fit:cover;
+}
+.fifthcontainer{
+    width:80%;
+    margin:0 auto;
+}
+.fifthfirsthead h1{
+   max-width: 540px;
+    font-size: 39px;
+}
+.round{
+    border: 1px solid orangered;
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.uil{
+    color:orange;
+    font-size:40px;
+}
+.fifthbannerround{
+    display: flex;
+    column-gap: 20px;
+}
+.fifthmaincontent{
+    display: flex;
+}
+.button6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 39px;
+}
+.button6 a{
+    color: white;
+    text-decoration: none;
+    padding: 6px 19px;
+    background-color: rgb(252, 115, 3);
+    border-radius: 6px;
+    box-shadow: -1px 7px 5px -2px rgba(240, 178, 107, 0.911);
+
+}
+.fifthbannercontent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.roundcontent h6 {
+    font-size: 13px;
+    max-width: 236px;
+    font-weight: 300;
+    color:#9da1aa;
+    padding-top: 10px;
+}
+.roundcontent h5{
+    font-size: 20px;
+
+}
+.fifthbannersecondcontent{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+.fifthbanner{
+    padding: 100px 0;
+}
+.sixthcontainer{
+    width:84%;
+    margin: 0 auto;
+}
+
+
+.sixthmainbannercontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sixthbox{
+    width:100%;
+    background-color:lin;
+    border-radius: 20px 160px 20px 20px;
+     background: radial-gradient(circle, rgba(255,171,45,1) 1%, rgba(255,48,12,0.8409488795518207) 100%);
+    height:411px;
+}
+.sithphonecontainer {
+    width: 457px;
+    overflow: hidden;
+    flex: 1;
+    position: absolute;
+    z-index: 10;
+    padding-left: 37px;
+}
+.sixthbannercontentfirst h1{
+    width:500px;
+    color:white;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.sixthbannercontentsecond h5{
+    width:400px;
+    color:white;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.sixthboxcontent{
+    display: flex;
+   align-items: center;
+   justify-content:flex-end;
+
+    
+}
+.sixthmainbannercontent{
+    padding-top:141px;
+}
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 56px;
+    
+}
+.sixthbannercontentthird{
+    width:282px;
+    height: 40px;
+    overflow: hidden;
+}
+.sixthbannercontentthird img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hidebox{
+    width:200px;
+    height: 300px;
+    border:1px solid black;
+    position: absolute;
+    right:20px;
+    top:0;
+}
+.sixthbanner{
+    position: relative;
+}
+.hidebox {
+    width: 103px;
+    height: 186px;
+    border: 1px solid white;
+    position: absolute;
+    right:68px;
+    top: 78px;
+    rotate: -225deg;
+    background-color: white;
+}
+.footercontainer{
+    width:90%;
+    margin:0 auto;
+}
+.footermainbanner{
+    background-color: rgb(32, 30, 30);
+    padding:50px 0;
+}
+.mainfootercontent{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+
+}
+footer{
+    padding-top:100px;
+}
+.footer1 h3{
+    color:white;
+    font-size: 30px;
+    font-weight:500;
+}
+.footer1 h5{
+    color:white;
+    font-weight:500;
+
+}
+.footer1 h6{
+    color:white;
+    font-weight: 300;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+.lastdiv{
+    display:flex;
+    justify-content: center;
+    padding-top:20px;
+}
+.lastdiv h6{
+    color:white;
+    font-weight: 300;
+    
+    
+}
+.logo1container{
+    width:25px;
+    height: 25px;
+    overflow: hidden;
+}
+.logo1container img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.footer2{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.footer1 a{
+    text-decoration: none;
+    color:white;
+}
+.phonediv{
+    position: fixed;
+    top:0;
+    left:0;
+    width:80%;
+    z-index: 10;
+    background-color: blue;
+    display: none;
+
+
+}
+.icon{
+    display: none;
+}
+@media screen and (max-width:1024px) {
+
+    .imagegallery {
+        width: 921px;
+        height: 441px;
+        overflow: hidden;
+    }
+    .firsthead h1 {
+        max-width: 490px;
+        color: white;
+        font-size: 43px;
+    }
+    .fifthfirsthead h1 {
+        max-width: 540px;
+        font-size: 37px;
+    }
+    .round {
+        border: 1px solid orangered;
+        width: 55px;
+        height: 55px;
+        border-radius: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .uil {
+        color: orange;
+        font-size: 40px;
+    }
+    .roundcontent h6 {
+        font-size: 13px;
+        max-width: 258px;
+        font-weight: 300;
+        color: #9da1aa;
+        padding-top: 10px;
+    }
+    .roundcontent h5 {
+        font-size: 18px;
+    }
+    .sixthcontainer {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .hidebox {
+        width: 103px;
+        height: 186px;
+        border: 1px solid white;
+        position: absolute;
+        right: 14px;
+        top: 78px;
+        rotate: -225deg;
+        background-color: white;
+    }
+    .sithphonecontainer {
+        overflow: hidden;
+        flex: 1;
+        position: absolute;
+        z-index: 10;
+    
+    }
+    .sixthbannercontentfirst h1 {
+        width: 443px;
+        font-size: 27px;
+        color: white;
+        padding-bottom: 20px;
+        font-weight: 600;
+    }
+    .sixthbannercontentsecond h5 {
+        width: 400px;
+        color: white;
+        font-weight: 300;
+        padding-bottom: 20px;
+    }
+    .button {
+        border: 1px solid white;
+        border-radius: 9px;
+        padding: 2px 14px;
+    }
+    .hidebox {
+        width: 198px;
+        height: 48px;
+        /* border: 1px solid #f8f8f8; */
+        position: absolute;
+        right: -7px;
+        top: 166px;
+        rotate: -319deg;
+        background-color: white;
+    }
+    
+    
+}
+@media screen and (max-width:768px) {
+    .imagegallery {
+        width: 752px;
+        height: 365px;
+        overflow: hidden;
+    }
+    .firsthead h1 {
+        max-width: 469px;
+        color: white;
+        font-size: 36px;
+    }
+    .secondhead h6 {
+        font-size: 16px;
+        max-width: 385px;
+        color: white;
+        line-height: 1.6;
+        font-weight: 300;
+    }
+    .secondhead h5 {
+        color: white;
+        font-size: 17px;
+        padding-top: 15px;
+        font-weight: 600;
+    }
+    .fourthbannerfirstcontent h1 {
+        max-width: 756px;
+        font-size: 38px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .fourthbannersecondcontent h5 {
+        max-width: 960px;
+        font-size: 12px;
+        font-weight: 300;
+        color: #9da1aa;
+        line-height: 1.8;
+        padding-bottom: 10px;
+    }
+    .fifthfirsthead h1 {
+        max-width: 588px;
+        font-size: 29px;
+    }
+    .roundcontent h5 {
+        font-size: 17px;
+        white-space: nowrap;
+    }
+.fifthfirsthead h1 {
+   max-width: 741px;
+    font-size: 29px;
+    text-align: center;
+}
+.fifthmaincontent {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.fifthbannercontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.roundcontent h6 {
+    font-size: 12px;
+    max-width: 451px;
+    font-weight: 300;
+    color: #9da1aa;
+    padding-top: 10px;
+}
+.sithphonecontainer {
+    overflow: hidden;
+    
+    position: absolute;
+    z-index: 10;
+    scale: 0.8;
+    padding-left:0;
+}
+
+
+
+.hidebox {
+    width: 103px;
+    height: 186px;
+    border: 1px solid white;
+    position: absolute;
+    right: -37px;
+    top: 78px;
+    rotate: -225deg;
+    background-color: white;
+}.sixthbox {
+    width: 100%;
+    background-color: lin;
+    border-radius: 20px 37px 20px 20px;
+    background: radial-gradient(circle, rgba(255,171,45,1) 1%, rgba(255,48,12,0.8409488795518207) 100%);
+    height: 365px;
+}
+.sixthbannercontentthird {
+    width: 232px;
+    height: 40px;
+    overflow: hidden;
+}
+.sithphonecontainer {
+    width: 415px;
+    height: 600px;
+    overflow: hidden;
+    position: absolute;
+    left: -30px;
+    z-index: 10;
+    scale: 0.7;
+    padding-left: 0;
+
+}
+.sixthbox {
+    width: 100%;
+    background-color: lin;
+    border-radius: 20px 37px 20px 20px;
+    background: radial-gradient(circle, rgba(255,171,45,1) 1%, rgba(255,48,12,0.8409488795518207) 100%);
+    height: 328px;
+}
+.sixthbannercontentfirst h1 {
+    width: 385px;
+    font-size: 23px;
+    color: white;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.imagegallery {
+    width: 691px;
+    height: 334px;
+    overflow: hidden;
+}
+.fourthbannersecondcontent h5 {
+    max-width: 1183px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #9da1aa;
+    line-height: 1.8;
+    padding-bottom: 10px;
+}
+.hidebox {
+    display: none;
+    width: 103px;
+    height: 186px;
+    border: 1px solid white;
+    position: absolute;
+    right: -37px;
+    top: 78px;
+    rotate: -225deg;
+    background-color: white;
+}
+.mainbannerfirstcontent {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    row-gap: 7px;
+}
+/* .firsthead h1 {
+    max-width: 465px;
+    color: white;
+    font-size: 23px;
+} */
+.firsthead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.firsthead h1 {
+    max-width: 548px;
+    color: white;
+    font-size: 36px;
+    
+}
+.button {
+    border: 1px solid white;
+    border-radius: 9px;
+    padding: 3px 7px;
+}
+.sithphonecontainer {
+    width: 415px;
+    height: 600px;
+    overflow: hidden;
+    position: absolute;
+    left: -30px;
+    top: -63px;
+    z-index: 10;
+    scale: 0.7;
+    padding-left: 0;
+}
+.sixthbannercontentsecond h5 {
+    width: 348px;
+    color: white;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+}
+@media screen and (max-width:426px){
+    .fourthbannerfirstcontent h1 {
+        max-width: 756px;
+        font-size: 19px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .fourthbannersecondcontent h5 {
+        max-width: 1183px;
+        font-size: 11px;
+        font-weight: 300;
+        color: #9da1aa;
+        line-height: 1.8;
+        padding-bottom: 10px;
+    }
+    .imagegallery {
+        width: 384px;
+        height: 195px;
+        
+        overflow: hidden;
+    }
+    .fifthfirsthead h1 {
+        max-width: 653px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .roundcontent h5 {
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    .roundcontent h6 {
+        font-size: 11px;
+        max-width: 612px;
+        font-weight: 300;
+        color: #9da1aa;
+        
+
+}
+.round {
+    border: 1px solid orangered;
+    width: 35px;
+    height: 35px;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.uil {
+    color: orange;
+    font-size: 30px;
+}
+.thirdcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+.thirdbannerimg {
+    height: 323px;
+    width: 393px;
+    overflow: hidden;
+    
+}
+.firsthead h1 {
+    max-width: 465px;
+    color: white;
+    font-size: 20px;
+}
+.secondhead h6 {
+    font-size: 11px;
+    max-width: 303px;
+    color: white;
+    line-height: 1.6;
+    font-weight: 400;
+}
+.secondhead h5 {
+    color: white;
+    font-size: 12px;
+    padding-top: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.names {
+    display: flex;
+    flex-direction: column;
+    column-gap: 87px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+.thirdbannercontent {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} 
+.thirdbannerimg {
+    height: 323px;
+    width: 393px;
+    overflow: hidden;
+    
+    
+}
+.sithphonecontainer {
+    width: 415px;
+    height: 600px;
+    overflow: hidden;
+    position: absolute;
+    left: -74px;
+    z-index: 10;
+    scale: 0.5;
+    padding-left: 0;
+    
+}
+.mainnav1{
+    display: none;
+}
+.icon{
+    display: initial;
+}
+.thirdbannercontent1 h2{
+    max-width: 399px;
+    font-size: 25px;
+}
+.sithphonecontainer {
+    width: 415px;
+    height: 600px;
+    overflow: hidden;
+    position: absolute;
+    top: -100px;
+    left: -16px;
+    z-index: 10;
+    scale: 0.5;
+    padding-left: 0;
+    /* text-align: center; */
+}
+.hidebox {
+    display: none;
+}
+.sixthbox {
+    width: 100%;
+    background-color: lin;
+    border-radius: 20px 37px 20px 20px;
+    background: radial-gradient(circle, rgba(255,171,45,1) 1%, rgba(255,48,12,0.8409488795518207) 100%);
+    height: 440px;
+}
+
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 185px;
+    text-align: center;
+}
+.sixthbannercontentfirst h1 {
+    width: 385px;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.sixthbannercontentsecond h5 {
+    width: 347px;
+    color: white;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.sixthmainbannercontent {
+    padding-top: 52px;
+}
+.sithphonecontainer {
+    width: 415px;
+    height: 600px;
+    overflow: hidden;
+    position: absolute;
+    top: -183px;
+    left: -16px;
+    z-index: 10;
+    scale: 0.5;
+    padding-left: 0;
+    /* text-align: center; */
+}
+.sithphonecontainer {
+    width: 415px;
+    height: 600px;
+    overflow: hidden;
+    position: absolute;
+    top: -202px;
+    left: -2px;
+    z-index: 10;
+    scale: 0.6;
+    padding-left: 0;
+    /* text-align: center; */
+}
+
+
+.sithphonecontainer {
+    width: 415px;
+    height: 600px;
+    overflow: hidden;
+    position: absolute;
+    top: -194px;
+    left: -9px;
+    z-index: 10;
+    scale: 0.5;
+}
+.footer1 h3 {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+/* .footer1 h5 {
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    white-space: nowrap;
+} */
+.footer1 h5{
+    font-size:10px;
+    font-weight:500;
+    white-space: nowrap;
+}
+.logo1container {
+    width: 19px;
+    height: 17px;
+    overflow: hidden;
+}
+.mainbannerfirstcontent {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.firsthead {
+    display: flex;
+     align-items:center;
+    flex-direction: column;
+}
+.thirdbannercontent1 h2 {
+    max-width: 399px;
+    font-size: 23px;
+}
+.sithphonecontainer {
+    width: 415px;
+    height: 600px;
+    overflow: hidden;
+    position: absolute;
+    top: -205px;
+    left: -9px;
+    z-index: 10;
+    scale: 0.6;
+}
+.phonediv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    row-gap:10px;
+    height: 100vh;
+    background-color: rgb(230, 89, 13);
+    
+
+}
+.phonedivnav{
+    margin:10px;
+
+}
+.navbar{
+    display: flex;
+    column-gap: 10px;
+}
+.navbar a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+}
+.navbar i{
+    color:white;
+}
+.closingtag{
+    position: absolute;
+    right:0;
+    top:0;
+    margin: 10px;
+}
+.closingtag i{
+    color:white;
+}
+.phonedivnav {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.uil2{
+  color:rgb(230, 89, 13);
+  font-size: 25px;
+
+}
+.mainbannerfirstcontent {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    row-gap: 7px;
+}
+.firsthead h1 {
+    max-width: 465px;
+    color: white;
+    font-size: 23px;
+}
+.thirdbannercontent2 h5 {
+    font-size: 13px;
+    max-width: 484px;
+    font-weight: 400;
+    padding-top: 15px;
+    line-height: 1.9;
+    color: #9da1aa;
+}
+.fourthbannersecondcontent h5 {
+    max-width: 1183px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #9da1aa;
+    line-height: 1.8;
+    padding-bottom: 10px;
+}
+.phonediv{
+    display: none;
+}
+
+
+
+
+
+}
+    
+
+
+
+    
+
+
+        
+
+    
+
+        
+
+
+
+
+
+
+
+
+
+
